@@ -23,8 +23,8 @@ function Header() {
         <div className="flex items-center justify-between">
           <div className="flex shrink-0">
             <a aria-current="page" className="flex items-center" href="/">
-              <img className="h-7 w-auto" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="" />
-              <p className="sr-only">Website Title</p>
+
+              <p className="">BC Portal</p>
             </a>
           </div>
           <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body>
+        <body className='mt-28'>
           <Header />
           {children}
         </body>
