@@ -34,6 +34,11 @@ export default function RootLayout({ children }) {
           </Link>
         )}
 
+        <PreviewCard
+          cardTitle="Request Access"
+        />
+
+
       </div>
 
     </div>

@@ -24,7 +24,7 @@ function Header() {
           <div className="flex shrink-0">
             <a aria-current="page" className="flex items-center" href="/">
 
-              <p className="">BC Portal</p>
+              <p className="">Clerk Portal</p>
             </a>
           </div>
           <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
